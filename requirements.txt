@@ -5,3 +5,4 @@ langchain-core
 tavily-python
 pydantic
 python-dotenv
+langchain-groq
