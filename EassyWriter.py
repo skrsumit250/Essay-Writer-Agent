@@ -152,7 +152,7 @@ with st.sidebar:
         ["openai/gpt-oss-120b", "llama-3.3-70b-versatile", "openai/gpt-oss-20b", "qwen/qwen3-32b"],
         index=0,
     )
-    max_revisions = st.slider("Max revisions", min_value=0, max_value=5, value=2)
+    max_revisions = st.slider("Max revisions", min_value=0, max_value=5, value=1)
     st.divider()
 
 task = st.text_area(
